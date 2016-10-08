@@ -30,6 +30,8 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000
 
 TARGET_LDPRELOAD := libNimsWrap.so
 
+TARGET_KERNEL_CONFIG := zs570kl-perf_defconfig
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 

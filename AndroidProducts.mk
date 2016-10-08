@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_zs570kl.mk
+    $(LOCAL_DIR)/cm.mk
