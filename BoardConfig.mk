@@ -35,6 +35,7 @@ TARGET_KERNEL_CONFIG := zs570kl-perf_defconfig
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
+TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
 
 # Recovery
 # RECOVERY_VARIANT := twrp
