@@ -23,6 +23,7 @@ ARGET_USES_64_BIT_BINDER := true
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/asus/zs570kl/recovery/kernel
+BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80008000
 BOARD_KERNEL_PAGESIZE := 4096
@@ -61,6 +62,8 @@ TW_DEFAULT_EXTERNAL_STORAGE := true
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 #TW_TARGET_USES_QCOM_BSP := true
+BOARD_USES_QCOM_HARDWARE := true
+#TARGET_USES_QCOM_BSP := true
 TW_NEW_ION_HEAP := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_EXCLUDE_SUPERSU := true
